@@ -1,0 +1,92 @@
+body {
+  background-color: #fff;
+}
+
+.navigation {
+  padding-right:3%;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: sans-serif;
+  color: rgb(2,43,58);
+  position: fixed;
+}
+
+.logo {
+
+}
+
+.header {
+  background-image: url(https://shitjustgotreelpodcast.files.wordpress.com/2017/05/sjgr-crew1.jpg?w=1431);
+  background-position: center center;
+  padding-top: 40%;
+  padding-bottom: 1%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+h4 {
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.first_videos {
+  background-color: rgb(41, 126, 147);
+  color: #ffffff;
+  align-content: center;
+}
+
+.first_videos h3 {
+  font-size: 20px;
+  align-content: center;
+  font-family: serif;
+}
+
+.video_box {
+  border-width: medium;
+  border: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 30%;
+}
+
+.meet_us {
+  background-color: rgb(198,66,35);
+  color: #ffffff;
+}
+
+.people {
+  border-width: medium;
+  border: 1%;
+  margin: 1%;
+  display: inline-flex;
+  width: 22.5%;
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.people h4 {
+  background-color: rgba(96, 151, 165, 0.5);
+  padding: 3%;
+  max-height: 40px;
+  align-content: center;
+  margin: 80% 0% 0% 0%;
+  position:static;
+}
+
+#sam {
+  background-image: url(../images/sam.jpg);
+}
+
+#jim {
+  background-image: url(../images/jim.jpg);
+}
+
+#liam {
+  background-image: url(../images/liam.jpg);
+}
+
+#elspeth {
+  background-image: url(../images/elspeth.jpg);
+}
