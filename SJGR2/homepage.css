@@ -88,16 +88,21 @@ h3 {
   font-weight: 500;
   text-align: center;
   color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1%;
 }
 
 h4 {
   font-family: sans-serif;
   font-size: 20px;
   text-align: center;
+  margin-top: 0;
+  padding-top: 1%;
 }
 
 .first_videos {
-  background-color: #D7C500;
+  background-color: #ffffff;
   color: #000000;
   align-content: center;
   margin-left: auto;
@@ -122,7 +127,9 @@ h4 {
   border: 10px;
   margin: 10px;
   display: inline-block;
-  width: 30%;
+  width: 27%;
+  background-color: #929292;
+  padding: 2%;
 }
 
 .meet_us {
@@ -145,12 +152,14 @@ h4 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
 }
 
 .headshot {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 200px;
 }
 
 .overlay {
@@ -164,6 +173,7 @@ h4 {
   opacity: 0;
   transition: .5s ease;
   background-color: #ffffff;
+  border-radius: 200px;
 }
 
 .people:hover .overlay {
@@ -181,9 +191,5 @@ h4 {
 }
 
 .contact {
-  background-color: #5D0BD4;
-}
-
-.about {
-  background-color: #0BD426;
+  background-color: #D7C500;
 }
