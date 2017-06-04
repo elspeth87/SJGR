@@ -3,6 +3,7 @@
 
 <head>
     <title>SHIT JUST GOT REEL</title>
+    <link rel="icon" href="../images/sjgr_logo.png" type="image/gif" sizes="16x16">
     <link href="../homepage.css" type="text/css" rel="stylesheet">
 </head>
 
@@ -10,14 +11,13 @@
 
 <div class="header">
   <div class="navigation">
-      <div class="logo" href="https://www.shitjustgotreel.co.uk">
+      <a class="logo" href="../homepage.html">
         <img src="/images/sjgr_logo.png" alt="SJGR Logo" style="width:130px;height:130px;">
-      </div>
+      </a>
       <div id="nav_links">
           <ul>
               <li> <a href="../videos.html"> Videos </a></li>
-              <li> <a href="../meet_us.html"> Meet the Casters </a></li>
-              <li> <a href="../about.html"> About </a></li>
+              <li> <a href="../meet_us.html"> Meet the Podcasters </a></li>
               <li> <a href="../contact.html"> Contact Us </a></li>
           </ul>
       </div>
@@ -32,12 +32,14 @@
 </div>
 
 <div class="first_videos">
-  <h3> Start at the beginning... </h3>
+  <div id="title">
+    <h3> Start at the beginning... </h3>
+  </div>
   <div class="videos123">
     <div class="video_box" id="video1">
       <h4> Episode 1 </h4>
       <iframe width="100%" height="100%" src="https://www.youtube.com/embed/IprjHVwn9yg" frameborder="0" allowfullscreen></iframe>
-      <p> In our first episode, we talk about films we’ve seen recently, including Park Chan-Wook’s <em>The Handmaiden</em>, the punk horror film <em>Green Room</em>, mumblecore movie <em>Win It All</em>, and the latest adaptation of <em>The Ghost In The Shell</em>.</p>
+      <p> In our first episode, we talk about films we've seen recently, including Park Chan-Wook's <i>The Handmaiden</i>, the punk horror film <i>Green Room</i>, mumblecore movie <i>Win It All</i>, and the latest adaptation of <i>The Ghost In The Shell</i>.</p>
       <p> Our theme for this episode is... </p>
       <h5> Favourite Film From The Year You Were Born </h5>
       <p> What did we choose? You'll have to watch to find out! </p>
@@ -59,11 +61,15 @@
       <p> What did we choose? You'll have to watch to find out! </p>
     </div>
   </div>
-  <h3 id="button"> More Videos </h3>
+  <div class="cta">
+    <h3 id="button"> More Videos </h3>
+  </div>
 </div>
 
 <div class="meet_us">
-  <h3> Meet the podcasters... </h3>
+  <div id="title">
+    <h3> Meet the podcasters... </h3>
+  </div>
   <div class="everyone">
     <div class="people" id="sam">
       <img src="../images/sam.jpg" alt="Sam" class="headshot">
@@ -90,4 +96,27 @@
       </div>
     </div>
   </div>
+  <div class="cta">
+    <h3 id="button"> Meet the gang... </h3>
+  </div>
 </div>
+
+<div class="contact">
+  <div id="title">
+    <h3 id="contact_us"> Get in touch! </h3>
+  </div>
+  <form method="post" action="index.php">
+
+      <input name="name" placeholder="NAME">
+
+      <input name="email" type="email" placeholder="EMAIL">
+
+      <textarea name="message" placeholder="YOUR MESSAGE"></textarea>
+
+      <input name="human" placeholder="*WHAT IS 2+2? (ANTI-SPAM)">
+
+      <input id="submit" name="submit" type="submit" value="Submit" >
+  </form>
+</div>
+
+</body>

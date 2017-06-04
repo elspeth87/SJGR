@@ -1,0 +1,104 @@
+.podcasters h1{
+  margin-bottom: 0%;
+}
+
+.introduction {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+}
+
+#the_gang {
+  border: 1%;
+  margin: 1%;
+  display: inline-block;
+}
+
+#the_gang.people  {
+  width: 20%;
+}
+
+#the_gang.contact_copy {
+  width: 53%;
+}
+
+#the_gang h3 {
+  width: 76%;
+}
+
+#sam {
+  background: linear-gradient(to bottom right, #FFB400, #F18805);
+  color: #fff;
+}
+
+#jim {
+  background: linear-gradient(to bottom right, #26C485, #05A8AA);
+  color: #fff;
+}
+
+#liam {
+  background: linear-gradient(to bottom right, #00A6EB, #3066BE);
+  color: #fff;
+}
+
+#elspeth {
+  background: linear-gradient(to bottom right, #E85D75, #A63446);
+  color: #fff;
+}
+
+.individuals {
+  padding: 1%;
+}
+
+.individuals h3 {
+  text-transform: uppercase;
+}
+
+.about_people {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+
+#everyone {
+  border: 1%;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#everyone.people {
+  width: 25%;
+}
+
+#everyone.bio {
+  width: 45%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#everyone.links {
+  width: 12%;
+}
+
+.bio {
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+.links {
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+.links a {
+  text-decoration: none;
+  color: #00A6EB;
+  background: #fff;
+  border-radius: 20px;
+  padding: 4%;
+  margin: 3%;
+  line-height: 250%;
+}
